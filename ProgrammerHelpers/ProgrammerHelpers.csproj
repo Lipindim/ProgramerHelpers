@@ -51,18 +51,27 @@
     <Compile Include="fromMain.Designer.cs">
       <DependentUpon>fromMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="OutInformationContol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OutInformationContol.Designer.cs">
+      <DependentUpon>OutInformationContol.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistryOperation.cs" />
     <Compile Include="TableInfo.cs" />
-    <Compile Include="UC_Linq_LinqToSQL_CreateClass.cs">
+    <Compile Include="UserControls\UC_Linq_LinqToSQL_CreateClass.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_Linq_LinqToSQL_CreateClass.Designer.cs">
+    <Compile Include="UserControls\UC_Linq_LinqToSQL_CreateClass.Designer.cs">
       <DependentUpon>UC_Linq_LinqToSQL_CreateClass.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="fromMain.resx">
       <DependentUpon>fromMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutInformationContol.resx">
+      <DependentUpon>OutInformationContol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,7 +82,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UC_Linq_LinqToSQL_CreateClass.resx">
+    <EmbeddedResource Include="UserControls\UC_Linq_LinqToSQL_CreateClass.resx">
       <DependentUpon>UC_Linq_LinqToSQL_CreateClass.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

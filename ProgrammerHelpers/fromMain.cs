@@ -15,21 +15,36 @@ namespace ProgrammerHelpers
         public formMain()
         {
             InitializeComponent();
-            Menu_Linq_LinqToSQL_CreateClass.PerformClick();
+            //Menu_Linq_LinqToSQL_CreateClass.PerformClick();
         }
 
         private void Menu_Linq_LinqToSQL_CreateClass_Click(object sender, EventArgs e)
         {
-            UC_Linq_LinqToSQL_CreateClass _myControl = new UC_Linq_LinqToSQL_CreateClass();
+            AddControlToForm(new UC_Linq_LinqToSQL_CreateClass());
+        }
+
+        private void AddControlToForm(UserControl aUserControl)
+        {
             pMain.Controls.Clear();
-            pMain.Controls.Add(_myControl);
-            pMain.Size = _myControl.Size;
+            pMain.Controls.Add(aUserControl);
+            pMain.Size = aUserControl.Size;
             //this.Size = _myControl.Size;
             //this.Height += menuStrip1.Height + 35;
             //this.Width += 15;
             this.Refresh();
-            this.ClientSize = _myControl.Size;
+            this.ClientSize = aUserControl.Size;
             this.Height += menuStrip1.Height;
+        }
+
+        private void Menu_WinForms_TabControl_HiddenTitleTab_Click(object sender, EventArgs e)
+        {
+            OutputText(@"Files\WinForms\TabControl\HiddenTitleTab.rtf");
+        }
+
+        private void OutputText(string aPathToFile)
+        {
+            OutInformationContol _outInformation = new OutInformationContol(aPathToFile);
+            AddControlToForm(_outInformation);
         }
     }
 }

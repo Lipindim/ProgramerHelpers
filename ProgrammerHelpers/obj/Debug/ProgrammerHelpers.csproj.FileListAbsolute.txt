@@ -8,3 +8,14 @@ c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\Programme
 c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.exe
 c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.pdb
 c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UC_Linq_LinqToSQL_CreateClass.resources
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.exe.config
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.exe
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.pdb
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.exe
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.pdb
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csprojResolveAssemblyReference.cache
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.formMain.resources
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.Properties.Resources.resources
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UC_Linq_LinqToSQL_CreateClass.resources
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csproj.GenerateResource.Cache
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.OutInformationContol.resources
