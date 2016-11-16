@@ -1,0 +1,10 @@
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.formMain.resources
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.exe
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.pdb
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.exe
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.pdb
+c:\users\admin\documents\visual studio 2015\Projects\ProgrammerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UC_Linq_LinqToSQL_CreateClass.resources
