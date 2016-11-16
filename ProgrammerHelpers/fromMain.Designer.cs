@@ -32,11 +32,13 @@
             this.linqToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linqToSQLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_Linq_LinqToSQL_CreateClass = new System.Windows.Forms.ToolStripMenuItem();
-            this.pMain = new System.Windows.Forms.Panel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.winFormsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_WinForms_TabControl_HiddenTitleTab = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_web = new System.Windows.Forms.ToolStripMenuItem();
+            this.Menu_Web_References = new System.Windows.Forms.ToolStripMenuItem();
+            this.pMain = new System.Windows.Forms.Panel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +48,8 @@
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.linqToolStripMenuItem,
-            this.winFormsToolStripMenuItem});
+            this.winFormsToolStripMenuItem,
+            this.menu_web});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(460, 29);
@@ -76,14 +79,6 @@
             this.Menu_Linq_LinqToSQL_CreateClass.Text = "Создание классов";
             this.Menu_Linq_LinqToSQL_CreateClass.Click += new System.EventHandler(this.Menu_Linq_LinqToSQL_CreateClass_Click);
             // 
-            // pMain
-            // 
-            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pMain.Location = new System.Drawing.Point(0, 29);
-            this.pMain.Name = "pMain";
-            this.pMain.Size = new System.Drawing.Size(460, 334);
-            this.pMain.TabIndex = 1;
-            // 
             // winFormsToolStripMenuItem
             // 
             this.winFormsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -106,6 +101,29 @@
             this.Menu_WinForms_TabControl_HiddenTitleTab.Size = new System.Drawing.Size(283, 26);
             this.Menu_WinForms_TabControl_HiddenTitleTab.Text = "Убрать названия вкладок";
             this.Menu_WinForms_TabControl_HiddenTitleTab.Click += new System.EventHandler(this.Menu_WinForms_TabControl_HiddenTitleTab_Click);
+            // 
+            // menu_web
+            // 
+            this.menu_web.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Menu_Web_References});
+            this.menu_web.Name = "menu_web";
+            this.menu_web.Size = new System.Drawing.Size(57, 25);
+            this.menu_web.Text = "Web";
+            // 
+            // Menu_Web_References
+            // 
+            this.Menu_Web_References.Name = "Menu_Web_References";
+            this.Menu_Web_References.Size = new System.Drawing.Size(152, 26);
+            this.Menu_Web_References.Text = "Ссылки";
+            this.Menu_Web_References.Click += new System.EventHandler(this.Menu_Web_References_Click);
+            // 
+            // pMain
+            // 
+            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pMain.Location = new System.Drawing.Point(0, 29);
+            this.pMain.Name = "pMain";
+            this.pMain.Size = new System.Drawing.Size(460, 334);
+            this.pMain.TabIndex = 1;
             // 
             // formMain
             // 
@@ -139,6 +157,8 @@
         private System.Windows.Forms.ToolStripMenuItem winFormsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabControlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem Menu_WinForms_TabControl_HiddenTitleTab;
+        private System.Windows.Forms.ToolStripMenuItem menu_web;
+        private System.Windows.Forms.ToolStripMenuItem Menu_Web_References;
     }
 }
 

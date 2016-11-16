@@ -46,5 +46,10 @@ namespace ProgrammerHelpers
             OutInformationContol _outInformation = new OutInformationContol(aPathToFile);
             AddControlToForm(_outInformation);
         }
+
+        private void Menu_Web_References_Click(object sender, EventArgs e)
+        {
+            OutputText(@"Files\Web\References.rtf");
+        }
     }
 }
