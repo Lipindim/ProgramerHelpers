@@ -39,20 +39,23 @@
             this.Menu_Web_References = new System.Windows.Forms.ToolStripMenuItem();
             this.pMain = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.разноеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Menu_Other_Regedit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.RosyBrown;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.linqToolStripMenuItem,
             this.winFormsToolStripMenuItem,
-            this.menu_web});
+            this.menu_web,
+            this.разноеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(460, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(421, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -113,7 +116,7 @@
             // Menu_Web_References
             // 
             this.Menu_Web_References.Name = "Menu_Web_References";
-            this.Menu_Web_References.Size = new System.Drawing.Size(152, 26);
+            this.Menu_Web_References.Size = new System.Drawing.Size(140, 26);
             this.Menu_Web_References.Text = "Ссылки";
             this.Menu_Web_References.Click += new System.EventHandler(this.Menu_Web_References_Click);
             // 
@@ -122,15 +125,30 @@
             this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pMain.Location = new System.Drawing.Point(0, 29);
             this.pMain.Name = "pMain";
-            this.pMain.Size = new System.Drawing.Size(460, 334);
+            this.pMain.Size = new System.Drawing.Size(421, 334);
             this.pMain.TabIndex = 1;
+            // 
+            // разноеToolStripMenuItem
+            // 
+            this.разноеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Menu_Other_Regedit});
+            this.разноеToolStripMenuItem.Name = "разноеToolStripMenuItem";
+            this.разноеToolStripMenuItem.Size = new System.Drawing.Size(78, 25);
+            this.разноеToolStripMenuItem.Text = "Разное";
+            // 
+            // Menu_Other_Regedit
+            // 
+            this.Menu_Other_Regedit.Name = "Menu_Other_Regedit";
+            this.Menu_Other_Regedit.Size = new System.Drawing.Size(152, 26);
+            this.Menu_Other_Regedit.Text = "Реестр";
+            this.Menu_Other_Regedit.Click += new System.EventHandler(this.Menu_Other_Regedit_Click);
             // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(460, 363);
+            this.ClientSize = new System.Drawing.Size(421, 363);
             this.Controls.Add(this.pMain);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -159,6 +177,8 @@
         private System.Windows.Forms.ToolStripMenuItem Menu_WinForms_TabControl_HiddenTitleTab;
         private System.Windows.Forms.ToolStripMenuItem menu_web;
         private System.Windows.Forms.ToolStripMenuItem Menu_Web_References;
+        private System.Windows.Forms.ToolStripMenuItem разноеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Menu_Other_Regedit;
     }
 }
 

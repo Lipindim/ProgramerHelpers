@@ -51,5 +51,10 @@ namespace ProgrammerHelpers
         {
             OutputText(@"Files\Web\References.rtf");
         }
+
+        private void Menu_Other_Regedit_Click(object sender, EventArgs e)
+        {
+            OutputText(@"Files\Other\Regedit.rtf");
+        }
     }
 }
