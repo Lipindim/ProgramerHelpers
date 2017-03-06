@@ -19,3 +19,5 @@ D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.Pro
 D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UC_Linq_LinqToSQL_CreateClass.resources
 D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csproj.GenerateResource.Cache
 D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.OutInformationContol.resources
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UserControls.Builder.Repeator.resources
+D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.menuForm.resources

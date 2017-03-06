@@ -9,12 +9,14 @@ namespace ProgrammerHelpers
 {
     public static class RegistryOperation
     {
+        private static string _reg_path = @"Software\LipinCorp\ProgrammerHelpers";
+
         public static void Write(string aLocalPath, string aKey, string aValue)
         {
             RegistryKey _regKey = null;
             try
             {
-                string _regKeyName = @"Software\LipinCorp\ProgrammerHelpers" + aLocalPath;
+                string _regKeyName = _reg_path + aLocalPath;
                 _regKey = Registry.CurrentUser.CreateSubKey(_regKeyName);
                 if (_regKey == null) return;
                 _regKey.SetValue(aKey, aValue);
@@ -33,7 +35,7 @@ namespace ProgrammerHelpers
             RegistryKey _regKey = null;
             try
             {
-                string _regKeyName = @"Software\LipinCorp\ProgrammerHelpers" + aLocalPath;
+                string _regKeyName = _reg_path + aLocalPath;
                 _regKey = Registry.CurrentUser.OpenSubKey(_regKeyName);
                 if (_regKey == null) return string.Empty;
                 return _regKey.GetValue(aKey).ToString();

@@ -12,9 +12,11 @@ namespace ProgrammerHelpers
 {
     public partial class formMain : Form
     {
+        public static MenuStrip MainMenu;
         public formMain()
         {
             InitializeComponent();
+            MainMenu = menuStrip;
             //Menu_Linq_LinqToSQL_CreateClass.PerformClick();
         }
 
@@ -33,7 +35,7 @@ namespace ProgrammerHelpers
             //this.Width += 15;
             this.Refresh();
             this.ClientSize = aUserControl.Size;
-            this.Height += menuStrip1.Height;
+            this.Height += menuStrip.Height;
         }
 
         private void Menu_WinForms_TabControl_HiddenTitleTab_Click(object sender, EventArgs e)
@@ -55,6 +57,16 @@ namespace ProgrammerHelpers
         private void Menu_Other_Regedit_Click(object sender, EventArgs e)
         {
             OutputText(@"Files\Other\Regedit.rtf");
+        }
+
+        private void Menu_Repeator_Click(object sender, EventArgs e)
+        {
+            AddControlToForm(new UserControls.Builder.Repeator());
+        }
+
+        private void menu_add_Click(object sender, EventArgs e)
+        {
+            new menuForm().ShowDialog();
         }
     }
 }

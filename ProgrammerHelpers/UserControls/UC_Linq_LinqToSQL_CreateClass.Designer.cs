@@ -33,9 +33,9 @@
             this.bTestConnection = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tbDataBase = new System.Windows.Forms.TextBox();
             this.tbServer = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboTableName = new System.Windows.Forms.ComboBox();
             this.bChoose = new System.Windows.Forms.Button();
             this.rbAllTables = new System.Windows.Forms.RadioButton();
             this.rbOrderTables = new System.Windows.Forms.RadioButton();
@@ -58,7 +58,7 @@
             this.btnReady = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dialogOutputFolder = new System.Windows.Forms.FolderBrowserDialog();
-            this.comboTableName = new System.Windows.Forms.ComboBox();
+            this.comboDataBase = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -68,10 +68,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel1.Controls.Add(this.comboDataBase);
             this.panel1.Controls.Add(this.bTestConnection);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.tbDataBase);
             this.panel1.Controls.Add(this.tbServer);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -110,15 +110,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Сервер";
             // 
-            // tbDataBase
-            // 
-            this.tbDataBase.Location = new System.Drawing.Point(181, 48);
-            this.tbDataBase.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tbDataBase.Name = "tbDataBase";
-            this.tbDataBase.Size = new System.Drawing.Size(232, 26);
-            this.tbDataBase.TabIndex = 1;
-            this.tbDataBase.TextChanged += new System.EventHandler(this.tbServer_TextChanged);
-            // 
             // tbServer
             // 
             this.tbServer.Location = new System.Drawing.Point(181, 12);
@@ -141,6 +132,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(602, 111);
             this.panel2.TabIndex = 1;
+            // 
+            // comboTableName
+            // 
+            this.comboTableName.FormattingEnabled = true;
+            this.comboTableName.Location = new System.Drawing.Point(202, 8);
+            this.comboTableName.Name = "comboTableName";
+            this.comboTableName.Size = new System.Drawing.Size(105, 28);
+            this.comboTableName.TabIndex = 6;
+            this.comboTableName.DropDown += new System.EventHandler(this.comboTableName_DropDown);
             // 
             // bChoose
             // 
@@ -358,14 +358,13 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // comboTableName
+            // comboDataBase
             // 
-            this.comboTableName.FormattingEnabled = true;
-            this.comboTableName.Location = new System.Drawing.Point(202, 8);
-            this.comboTableName.Name = "comboTableName";
-            this.comboTableName.Size = new System.Drawing.Size(105, 28);
-            this.comboTableName.TabIndex = 6;
-            this.comboTableName.DropDown += new System.EventHandler(this.comboTableName_DropDown);
+            this.comboDataBase.FormattingEnabled = true;
+            this.comboDataBase.Location = new System.Drawing.Point(181, 48);
+            this.comboDataBase.Name = "comboDataBase";
+            this.comboDataBase.Size = new System.Drawing.Size(232, 28);
+            this.comboDataBase.TabIndex = 7;
             // 
             // UC_Linq_LinqToSQL_CreateClass
             // 
@@ -396,7 +395,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tbDataBase;
         private System.Windows.Forms.TextBox tbServer;
         private System.Windows.Forms.Button bTestConnection;
         private System.Windows.Forms.Panel panel2;
@@ -423,5 +421,6 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.ComboBox comboTableName;
+        private System.Windows.Forms.ComboBox comboDataBase;
     }
 }
