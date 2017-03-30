@@ -21,3 +21,16 @@ D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csp
 D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.OutInformationContol.resources
 D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UserControls.Builder.Repeator.resources
 D:\Repository\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.menuForm.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.exe.config
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.exe
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.pdb
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.exe
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\bin\Debug\ProgrammerHelpers.pdb
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csprojResolveAssemblyReference.cache
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.formMain.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.menuForm.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.OutInformationContol.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.Properties.Resources.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UserControls.Builder.Repeator.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.UC_Linq_LinqToSQL_CreateClass.resources
+C:\REPO\ProgramerHelpers\ProgrammerHelpers\obj\Debug\ProgrammerHelpers.csproj.GenerateResource.Cache
